@@ -1,0 +1,10 @@
+[theme]
+base = "dark"
+primaryColor = "#7C9CFF"
+backgroundColor = "#0E1117"
+
+[server]
+# 自分の PC からだけ開けるようにする（同じ Wi-Fi の他人がアクセスして API キーを使えないように）
+address = "localhost"
+# アップロードの上限（MB）。巨大ファイルによる長時間の処理やトークンの大量消費を防ぐ
+maxUploadSize = 20
